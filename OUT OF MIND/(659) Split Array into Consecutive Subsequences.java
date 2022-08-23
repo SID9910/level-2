@@ -1,5 +1,6 @@
 class Solution {
     //greedy question //difficult
+    //not understand
     public boolean isPossible(int[] nums) {
       // This hashmap tells us about whether a number in num is available for a job or not
         HashMap<Integer,Integer> avaibilityMap = new HashMap<>();
