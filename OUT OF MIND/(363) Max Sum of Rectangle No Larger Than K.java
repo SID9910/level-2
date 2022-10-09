@@ -1,6 +1,7 @@
 class Solution {
     //not done difficult
-    //not understand the apporach but i do this 
+    //not understand the apporach but i do this
+    // 
     public int maxSumSubmatrix(int[][] matrix, int k) {
           int res = Integer.MIN_VALUE;
         for(int leftCol = 0; leftCol < matrix[0].length; leftCol++) {
