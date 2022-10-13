@@ -4,6 +4,22 @@ public class Solution {
      * @return: return a integer, denote  the maximum number of consecutive 1s
      */
     public int findMaxConsecutiveOnes(int[] nums) {
+       //brute force approach
+    //    int res=Integer.MIN_VALUE;
+    //    for(int start =0;start<nums.length;start++){
+    //        int count=0;
+    //        for(int end =start;end<nums.length;end++){
+    //            if(nums[end]==0){
+    //                count++;
+    //            }
+    //            if(count<=1){
+    //            res =Math.max(end-start+1,res);
+    //            }
+    //        }
+    //    }
+    //    return res;
+       
+      //optimised 
         //acquire and release strategy
         int i=0;
         int j=0;
