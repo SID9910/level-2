@@ -9,7 +9,7 @@ class Solution {
         Arrays.sort(str,(a,b)->{
             String case1 =a+b;
             String case2 =b+a;
-           return case2.compareTo(case1); 
+           return case2.compareTo(case1); //baade vale ko pehle rakhega
         });
         
         //if starting zero encounter then return 0
