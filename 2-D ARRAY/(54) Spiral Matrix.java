@@ -12,7 +12,7 @@ class Solution {
         int lcolumn =matrix[0].length - 1;
         int count =0;
         
-        //bss while ki condition aalag
+        
         //count ko isme return ki jagah hum for loop ki condition main lekar karenge
         while(count<matrix.length*matrix[0].length){
             //from left to right
