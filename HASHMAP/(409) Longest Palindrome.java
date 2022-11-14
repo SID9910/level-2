@@ -14,7 +14,7 @@ class Solution {
                 result+=c; //adding even
             }else{
                 odd_found =true;
-                result+=c-1; //adding odd
+                result+=c-1; 
             }
         }
         //add one at the end
