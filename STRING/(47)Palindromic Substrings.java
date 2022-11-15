@@ -1,5 +1,5 @@
 class Solution {
-    //level-1  string question 
+    //level-1 pepcoding  string question 
     
     //approach-1 tc=0(n2) i guess
     public boolean isPalindrome(String str){
