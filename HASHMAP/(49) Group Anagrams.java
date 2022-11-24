@@ -1,5 +1,5 @@
 class Solution {
-    //learning while doing question
+    //learning while doing  
     public List<List<String>> groupAnagrams(String[] strs) {
      HashMap<HashMap<Character ,Integer>,ArrayList<String>>  bmap =new HashMap<>();
         for(String str: strs){
