@@ -1,6 +1,6 @@
 class Solution {
     //level-1 dp(Maximum sum non adjacent elements)
-    //imp 
+    //imp  hai
     public int rob(int[] nums) {
        int inc =nums[0];
         int exc =0;
