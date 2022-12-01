@@ -23,7 +23,7 @@
 //     }
 // }
 
-//another approach optimised
+//another approach optimised method
 class Solution {
     public boolean isUgly(int n) {
         int flag=0;
