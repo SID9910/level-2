@@ -1,5 +1,5 @@
 class Solution {
-    //kmp oure logic
+    //kmp  logic
    public String shortestPalindrome(String s) {
     //add reverse to it
     String str =s+"$"+ new StringBuilder(s).reverse().toString(); 
