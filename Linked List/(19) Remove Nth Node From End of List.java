@@ -29,6 +29,6 @@ class Solution {
         // slow pointer will be pointing to the node before the one to be removed
         // then we update the next node of the slow pointer
         slow.next = slow.next.next; //bss ye logic extra hai
-        return head; //return head
+        return head; 
     }
 }
