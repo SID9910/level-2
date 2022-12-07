@@ -8,7 +8,7 @@ class Solution {
         }
         
         int count=0;
-        int maxstring=t.length();
+        int maxstring=t.length(); //
         HashMap<Character,Integer> map1 = new HashMap<>();
         int i=-1;
         int j=-1;
