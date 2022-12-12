@@ -15,3 +15,35 @@ class Solution {
         
     }
 }
+
+//memoization
+class Solution {
+    public int climb(int n, int[] dp){
+        if(n==0){
+
+            return 1;
+
+        }
+
+        if(n<0){
+
+            return 0;
+
+        }
+        if(dp[n]!=0){
+            return dp[n];
+        }
+
+        int step1=climb(n-1,dp);
+
+        int step2=climb(n-2,dp);
+
+        return dp[n]=step1+step2;
+        
+    }
+    public int climbStairs(int n) {
+        int[] dp = new int[n+1];
+        int ans =climb(n,dp);
+        return dp[n];
+    }
+}
