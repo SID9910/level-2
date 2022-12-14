@@ -1,5 +1,5 @@
 class Solution {
-    // dp(Maximum sum non adjacent elements)
+    // dp(Maximum sum non adjacent elements) tc=0(n) space=0(1)
    public int rob(int[] nums) {
      int n =nums.length;
        int prev =nums[0];
