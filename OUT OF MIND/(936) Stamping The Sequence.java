@@ -1,7 +1,7 @@
 class Solution {
     //not done 
     //hard
-    //greedy
+    //greedy approach
     public int[] movesToStamp(String stamp, String target) {
          char[] S = stamp.toCharArray();
         char[] T = target.toCharArray();
