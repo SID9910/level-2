@@ -1,4 +1,5 @@
 class Solution {
+    //
     // public String reverseWords(String s) {
     //     String[] words =s.trim().split(" +");
     //     Collections.reverse(Arrays.asList(words));
@@ -6,7 +7,7 @@ class Solution {
     // }
 
 
-//two pointer approach
+//two pointer approach hai
      public String reverseWords(String s) {
      StringBuilder result = new StringBuilder();
      for(int i=0;i<s.length();i++){
