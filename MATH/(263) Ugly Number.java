@@ -4,7 +4,7 @@
 //         //aaagr number se chota hai to false 
 //         if (n <= 0) {return false;}
 //         //2,3,5 ke sath bs 1 kyuki vo apne aap main prime hai
-//     if (n == 1) {return true;} //aaagr 1 to return true
+//     if (n == 1) {return true;} //aaagr 1 to return true karodo
         
 //         //pehle number ko divide kardo aagr ho gya 
 //         //fhir ander usme number per lagao to return lelo fhir
