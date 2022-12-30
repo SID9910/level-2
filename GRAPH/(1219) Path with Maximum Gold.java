@@ -12,8 +12,8 @@ class Solution {
             }
         }
         return max;
-    }
-//floodfill ki tarah hai
+    } 
+//floodfill ki tarah hai same
     private void getMaximumGold(int[][] grid, int row, int col, int sum, boolean[][] visited) {
         if(row < 0 || row >= grid.length || col >= grid[0].length || col < 0 || grid[row][col] == 0 || visited[row][col] == true){
             max = Math.max(max, sum);
