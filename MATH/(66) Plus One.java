@@ -11,7 +11,7 @@ class Solution {
         }
         //aagr 999 hota to result karte return kyuki 
         //uper ken loop chalne ke baad 000
-        //ho jata and hum pehle index per 1 daal dete
+        
         if(digits[0]==0){
         int[] result = new int[digits.length+1];//ye 
          result[0]=1;
