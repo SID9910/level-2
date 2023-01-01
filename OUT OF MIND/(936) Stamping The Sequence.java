@@ -1,5 +1,5 @@
 class Solution {
-    //not done 
+    //not done tough
     //hard
     //greedy approach
     public int[] movesToStamp(String stamp, String target) {
