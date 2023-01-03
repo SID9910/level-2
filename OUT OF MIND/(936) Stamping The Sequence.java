@@ -1,6 +1,6 @@
 class Solution {
     //not done tough
-    //hard
+    //hard hai 
     //greedy approach
     public int[] movesToStamp(String stamp, String target) {
          char[] S = stamp.toCharArray();
