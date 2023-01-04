@@ -1,5 +1,5 @@
 class Solution {
-    //nhi hua mere se ye
+    
     //out of mind 
     //dubara aaunga ispe
     public int minRefuelStops(int target, int startFuel, int[][] stations) {
