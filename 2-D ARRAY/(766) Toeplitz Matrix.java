@@ -1,4 +1,5 @@
 class Solution {
+    //acha sawal hai
     public boolean isToeplitzMatrix(int[][] matrix) {
      
         for (int i = 0; i < matrix.length - 1; i++) {
