@@ -1,6 +1,6 @@
 class Solution {
     public int canCompleteCircuit(int[] gas, int[] cost) {
-     int currentsum =0;//aab taak ka sum
+     int currentsum =0;//aab taak ka sum lelo
         int totalsum =0;//pure total ka sum
         int startpoint =0;//ye return kar denge
         for(int i=0; i<gas.length;i++){
