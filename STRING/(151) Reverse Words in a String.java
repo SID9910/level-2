@@ -1,5 +1,5 @@
 class Solution {
-    //
+    //different approach
     // public String reverseWords(String s) {
     //     String[] words =s.trim().split(" +");
     //     Collections.reverse(Arrays.asList(words));
