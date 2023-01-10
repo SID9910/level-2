@@ -1,5 +1,5 @@
 class Solution {
-    // approach-0(worst) tc =o(n2) //tle aaegi a
+    // approach-0(worst) tc =o(n2) //tle aaegi isme
     //brute force
 //      public int maxArea(int[] height) {
 //         int maxwater =Integer.MIN_VALUE;
