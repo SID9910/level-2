@@ -1,6 +1,6 @@
 class Solution {
     //very very difficult pure geometry
-    //out of mind question
+    //out of mind question nhi hoga ye
     public class point{
         int x ;
         int y;
