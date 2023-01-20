@@ -1,5 +1,6 @@
 /*
 // Definition for a Node.
+//this is good
 class Node {
     public int val;
     public List<Node> children;
