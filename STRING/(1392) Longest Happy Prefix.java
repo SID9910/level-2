@@ -1,5 +1,5 @@
 class Solution {
-    //pure kmp logic 
+    //pure kmp logic hai
     public String longestPrefix(String s) {
     
     int[] lps = new int[s.length()];
