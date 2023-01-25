@@ -1,6 +1,6 @@
 class Solution {
     //optimised
-    //bucket sort sikh kar karunga us se bhi nhi
+    //bucket sort sikh kar karunga us se bhi nhi hua
     
     //priority queue (brute force)
     public int[] topKFrequent(int[] nums, int k) {
