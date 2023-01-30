@@ -1,5 +1,5 @@
 class Solution {
-    //acha sawal
+    //acha sawal hai
     public int longestConsecutive(int[] nums) {
         HashMap<Integer, Boolean> map = new HashMap<>();
         
