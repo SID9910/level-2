@@ -1,5 +1,5 @@
 class Solution {
-    //memoization
+    //memoization hai
     static int allpath(int i, int j, int[][] obstacleGrid, int[][] dp){
     if (i == 0 && j == 0) {
         if (obstacleGrid[i][j] == 1) {
