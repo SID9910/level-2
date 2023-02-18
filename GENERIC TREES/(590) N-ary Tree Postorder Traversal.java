@@ -1,5 +1,5 @@
 class Solution {
-    //noice ha
+    //noice hai
     public List<Integer> postorder(Node root) {
 
         List<Integer> res = new ArrayList<>();
