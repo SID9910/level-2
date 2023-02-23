@@ -10,7 +10,7 @@ class Solution {
             }
         }
         //aagr 999 hota to result karte return kyuki 
-        //uper ken loop chalne ke baad 000
+        //uper ken loop chalne ke baad 000 hai
         
         if(digits[0]==0){
         int[] result = new int[digits.length+1];//ye 
