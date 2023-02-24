@@ -1,5 +1,5 @@
 class Solution {
-    //very very difficult pure geometry
+    //very very difficult pure geometry hai
     //out of mind question nhi hoga ye
     public class point{
         int x ;
