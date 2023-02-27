@@ -1,5 +1,6 @@
 class Solution {
     //recursive approach
+      
         //   public boolean canJump(int[] nums) {
         //     return canjump(nums,0);
         // }
@@ -14,13 +15,18 @@ class Solution {
         //     return false;
         // }
         
+        //ye concept like last se uska last-1 compare or faith  karke
+        //nikal rahe hai
         public boolean canJump(int[] nums) {
-        int reachable = 0;
-        for (int i=0; i<nums.length; ++i) {
-            if (i > reachable) return false;
-            reachable = Math.max(reachable, i + nums[i]);
-        }
-        return true;
+        int  n=nums.length-1;
+            int lastposition=n;
+            for(int i=n-1;i>=0;i--){
+                if(i+nums[i]>=lastposition){
+                    lastposition=i;
+                }
+            }
+            return lastposition==0; //mtlb zero index per pohoch gya
+    
     }
         
     }

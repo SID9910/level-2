@@ -1,49 +1,74 @@
 class Solution {
-    public int climbStairs(int n) {
-      int[] strg = new int[n+1];
+    //recursion
+    //exponential
+    // public int climbStairs(int n) {
+    //     if(n==0){
+    //         return 1;
+    //     }
+    //     if(n==1){
+    //         return 1;
+    //     }
+    //     int left =climbStairs(n-1);
+    //     int right =climbStairs(n-2);
+    //     return left+right;
+    // }
+    
+    //memoization
+//     public int climb(int index,int[] dp){
+//         if(index==0 || index==1){
+//             return 1;
+//         }
+//         if(dp[index]!=0){
+//             return dp[index];
+//             }
+//         int left =climb(index-1,dp);
+//         int right =climb(index-2,dp);
+//         return dp[index]=left+right;
         
-       strg[0] = 1;
-        for(int i=0;i<=n;i++){
-            if(i-1>=0){
-                strg[i]+=strg[i-1];
-            }
-            if(i-2>=0){
-                strg[i]+=strg[i-2];
-            }
+        
+//     }
+    
+//     public int climbStairs(int n){
+//         int[] dp = new int[n+1];
+//         int ans =climb(n ,dp);
+//         return ans;
+        
+        
+//     }
+    
+    //tabulation
+//       public int climb(int index,int[] dp){
+//         dp[0]=1;
+//           dp[1]=1;
+        
+//         for(int i=2;i<=index;i++){
+//             dp[i]=dp[i-1]+dp[i-2];
+//         }
+//           return dp[index];
+        
+//     }
+    
+//     public int climbStairs(int n){
+//         int[] dp = new int[n+1];
+//         int ans =climb(n ,dp);
+//         return ans;
+        
+        
+//     }
+      
+    //space optimisation
+    public int climbStairs(int n){
+        
+        int prev=1;
+        int prev2=1;
+        for(int i=2;i<=n;i++){
+            int curr =prev+prev2;
+            prev2=prev;
+            prev=curr;
         }
-        return strg[n];
+        return prev;
+        
         
     }
-}
-
-//memoization
-class Solution {
-    public int climb(int n, int[] dp){
-        if(n==0){
-
-            return 1;
-
-        }
-
-        if(n<0){
-
-            return 0;
-
-        }
-        if(dp[n]!=0){
-            return dp[n];
-        }
-
-        int step1=climb(n-1,dp);
-
-        int step2=climb(n-2,dp);
-
-        return dp[n]=step1+step2;
-        
-    }
-    public int climbStairs(int n) {
-        int[] dp = new int[n+1];
-        int ans =climb(n,dp);
-        return dp[n];
-    }
+    
 }
