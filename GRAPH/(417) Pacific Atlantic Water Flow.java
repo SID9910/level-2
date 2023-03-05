@@ -1,4 +1,5 @@
 class Solution {
+    //not that easy
     public List<List<Integer>> pacificAtlantic(int[][] matrix) {
         List<List<Integer>> result = new ArrayList<>();
         int row = matrix.length;
