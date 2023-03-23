@@ -1,7 +1,6 @@
 
 class Solution {
     
-//hai
 
     public List<Integer> preorder(Node root) {
     
