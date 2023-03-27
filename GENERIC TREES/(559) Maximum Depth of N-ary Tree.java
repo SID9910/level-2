@@ -1,6 +1,6 @@
 
 class Solution {
-    //easy
+    //easy hai
     public int maxDepth(Node root) {
         if(root==null){
             return 0;
