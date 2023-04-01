@@ -1,5 +1,5 @@
 class Solution {
-    //nice question
+    
     public int singleNonDuplicate(int[] nums) {
       int lo=0;
         int hi=nums.length-1;
