@@ -1,5 +1,5 @@
 class Solution {
-    //adjacent list main create karke normal haspath vala 
+    //adjacent list main create karke normal haspath vala  hai
   
   public void DFS(int[][] graph ,int src ,int destination ,boolean[] visited ,List<Integer> path ,List<List<Integer>> paths){
       
