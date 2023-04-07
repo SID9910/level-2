@@ -63,23 +63,60 @@ class Solution {
       
  //      }
      
-     //recursion
-       public ListNode reverseList(ListNode head) {
+     //recursion pointer
+ //       public ListNode reverseList(ListNode head) {
       
               
-    if (head == null || head.next == null)
-    {
-        return head;
-    }
+ //    if (head == null || head.next == null)
+ //    {
+ //        return head;
+ //    }
          
-         ListNode newHead  = reverseList(head.next);
+ //         ListNode newHead  = reverseList(head.next);
          
-         head.next.next = head;
-         head.next =null;
+ //         head.next.next = head;
+ //         head.next =null;
          
-         return newHead;
+ //         return newHead;
           
       
+ //      }
+     
+     //recursion (data)
+   public  int length(ListNode node){
+       int length=0;
+       while(node!=null){
+           node=node.next;
+           length++;
+       }
+       return length;
+   } 
+      
+     public  void reversehelper(ListNode right ,int floor){
+         if(right==null){
+             return ;
+         }
+         reversehelper(right.next ,floor+1);
+       
+        
+         if(floor>=size/2){
+             int temp =left.val;
+             left.val=right.val;
+             right.val=temp;
+             left=left.next;
+         }
+         
+         
+     }
+        ListNode left =null;
+      int size=0;
+        public ListNode reverseList(ListNode head) {
+             size =length(head);
+            left =head;
+            reversehelper(head ,0);
+            return head;
+              
+   
       }
      
    
