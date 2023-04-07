@@ -45,24 +45,42 @@ class Solution {
  //     }
    
      //iterative approach 0(n)
-      public ListNode reverseList(ListNode head) {
+ //      public ListNode reverseList(ListNode head) {
       
-          ListNode prev=null;
-          ListNode curr=head;
-          while(curr!=null){
-              ListNode next =curr.next;
-              curr.next=prev;
-              prev=curr;
-              curr=next;
+ //          ListNode prev=null;
+ //          ListNode curr=head;
+ //          while(curr!=null){
+ //              ListNode next =curr.next;
+ //              curr.next=prev;
+ //              prev=curr;
+ //              curr=next;
               
               
-          }
-          return prev;
+ //          }
+ //          return prev;
           
+          
+      
+ //      }
+     
+     //recursion
+       public ListNode reverseList(ListNode head) {
+      
+              
+    if (head == null || head.next == null)
+    {
+        return head;
+    }
+         
+         ListNode newHead  = reverseList(head.next);
+         
+         head.next.next = head;
+         head.next =null;
+         
+         return newHead;
           
       
       }
-     
      
    
  }
