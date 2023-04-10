@@ -1,5 +1,5 @@
 class Solution {
-    //amazon question
+    //amazon question hai
     public int missingNumber(int[] nums) {
         int sum=0;
         sum = nums.length*(nums.length+1)/2;
