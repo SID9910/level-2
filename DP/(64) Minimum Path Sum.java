@@ -1,5 +1,5 @@
 class Solution {
-    //recursion hai
+    //recursion
 //   public int minPathSum(int[][] arr) {
 //         int m=arr.length;
 //         int n=arr[0].length;
