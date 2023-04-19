@@ -1,4 +1,5 @@
 class Solution {
+ //yes
     public int minDeletions(String s) {
     int deletion =0;
         int[] freq = new int[26];
