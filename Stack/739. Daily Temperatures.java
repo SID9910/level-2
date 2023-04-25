@@ -1,5 +1,5 @@
 class Solution {
-    //done aacha sawal hai
+    //done aacha sawal hai ye
         public int[] dailyTemperatures(int[] temperatures) {
      Stack<Integer> st = new Stack<>();
         int n =temperatures.length;
