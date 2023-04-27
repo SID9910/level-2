@@ -1,6 +1,6 @@
 class Solution {
     public boolean checkSubarraySum(int[] nums, int k) {
-       // stores mod values of k mapped with first time found index
+       // stores mod values of k mapped with first time found index hai
        HashMap<Integer,Integer> map = new HashMap<>();
        long sum=0;
        map.put(0,-1); // base case no sum at -1 position
