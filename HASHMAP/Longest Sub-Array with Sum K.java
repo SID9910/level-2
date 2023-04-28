@@ -51,27 +51,27 @@ class Solution{
    
     // Function for finding maximum and value pair
     public static int lenOfLongSubarr (int A[], int N, int K) {
-        int ans=0;
-        int sum=0;
-        
-        HashMap<Integer,Integer> map = new HashMap<>();
-        map.put(sum,-1);
-        
-        for(int i=0;i<A.length;i++){
-            sum+=A[i];
-              
-            if(map.containsKey(sum-K)){
-                int idx =map.get(sum-K);
-                int len =i-idx;
-                if(ans<len){
-                    ans=len;
+            int ans=0;
+            int sum=0;
+            
+            HashMap<Integer,Integer> map = new HashMap<>();
+            map.put(sum,-1);
+            
+            for(int i=0;i<A.length;i++){
+                sum+=A[i];
+                
+                if(map.containsKey(sum-K)){
+                    int idx =map.get(sum-K);
+                    int len =i-idx;
+                    if(ans<len){
+                        ans=len;
+                    }
                 }
+                if(!map.containsKey(sum)){
+                        map.put(sum , i);
+                    }
             }
-             if(!map.containsKey(sum)){
-                    map.put(sum , i);
-                }
-        }
-        return ans;
+            return ans;
     }
     
     
