@@ -30,7 +30,11 @@ class Solution {
         }
         if(map.size()==0){
             return true;
-        }else if(map.size() ==1 && map.containsKey(0)){
+        }
+        //kyuki val!=0 uper hum kar rahe hai zero ko nhi le rahe 
+        //and vo hua aaagar akela to pakka even he hoga kyuki question main 
+        //dea hua hai so true karenge
+        else if(map.size() ==1 && map.containsKey(0)){
             return true;
         }else{
             return false;
