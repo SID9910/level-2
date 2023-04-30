@@ -2,6 +2,7 @@ class Solution {
 
     public double myPow(double x, int n) {
         //ye question main dikkat hai thodi rating bhi aachi nhi hai iski
+        //beakr sawal`
           double temp=x;
             if(n==0)
             return 1;
