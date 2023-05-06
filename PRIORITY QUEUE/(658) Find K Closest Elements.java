@@ -1,5 +1,5 @@
 class Solution {
-    //not optimised
+    //not optimised hai
     //priority queue
     //tc-nlogk
    public  class Pair implements Comparable <Pair>{
