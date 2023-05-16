@@ -9,7 +9,7 @@
  * }
  */
 class Solution {
-    //
+    //done
     public ListNode sortList(ListNode head) {
      if(head==null || head.next==null){
          return head;
