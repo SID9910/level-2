@@ -1,5 +1,5 @@
 class Solution {
-    //yes
+    
     public boolean isPowerOfTwo(int n) {
      int count=0;
         int t=n;
