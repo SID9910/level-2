@@ -1,6 +1,6 @@
 class Solution {
     //recursion
-    //exponential hai
+    //exponential
     // public int climbStairs(int n) {
     //     if(n==0){
     //         return 1;
