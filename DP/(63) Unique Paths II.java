@@ -1,5 +1,5 @@
 class Solution {
-    //recursion hai ye
+    //recursion hai 
 //     static int allpath(int i, int j, int[][] obstacleGrid){
 //     if (i == 0 && j == 0) {
         
