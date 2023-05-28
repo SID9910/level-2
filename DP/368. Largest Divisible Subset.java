@@ -6,7 +6,7 @@ class Solution {
        dp[i]=1;
    }
    int maxi =1; //khud ho sakta hai
-  int lastindex =0;
+  int lastindex =0;  
   Arrays.sort(nums);
    for(int index=0;index<nums.length;index++){
        hash[index]=index;
