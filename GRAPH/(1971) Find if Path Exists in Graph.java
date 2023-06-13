@@ -1,5 +1,5 @@
 class Solution {
-    //adjacent list main create karke normal haspath vala logic
+    //adjacent list main create karke normal haspath vala logic hai
      class Graph{
          public ArrayList<Integer>[] adj;
          Graph(int n){
