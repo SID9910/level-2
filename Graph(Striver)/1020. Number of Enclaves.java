@@ -1,7 +1,7 @@
  class Pair{
      int first;
      int second;
-     Pair (int f1 ,int f2){
+    public  Pair (int f1 ,int f2){
          this.first =f1;
          this.second =f2;
      } 
