@@ -9,7 +9,7 @@
  * }
  */
 class Solution {
-    //tc-o(n) space=0(n) hai
+    //tc-o(n) space=0(n)
     public ListNode reverseKGroup(ListNode head, int k) {
        if(head==null){
            return null;
