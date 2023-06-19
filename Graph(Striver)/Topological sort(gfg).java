@@ -60,35 +60,73 @@ class Main {
 
 class Solution
 {
+    //DFS
+    // static int[] topoSort(int v, ArrayList<ArrayList<Integer>> adj) 
+    // {
+    //  Stack<Integer> st = new Stack<>();
+    //  int[] ans = new int[v];
+    //  int[] vis = new int[v]; 
+    //  for(int i=0;i<v;i++){
+    //      if(vis[i]==0){
+    //          dfs(i ,vis ,st ,adj);
+    //      }
+    //  }
+    //  int j=0;
+     
+    //  while(!st.isEmpty()){
+    //      ans[j++]=st.peek();
+    //      st.pop();
+    //  }
+    //  return ans;
+     
+    // }
+    
+    // public static  void dfs(int node ,int[] vis ,Stack<Integer> st ,ArrayList<ArrayList<Integer>> adj){
+        
+    //     vis[node]=1;
+        
+    //     for(int it:adj.get(node)){
+    //         if(vis[it]==0){
+    //           dfs(it ,vis ,st,adj); 
+    //         }
+    //     }
+    //     st.push(node);
+    // }
+    
+    //BFS kahn's algoritm
     static int[] topoSort(int v, ArrayList<ArrayList<Integer>> adj) 
     {
-     Stack<Integer> st = new Stack<>();
-     int[] ans = new int[v];
-     int[] vis = new int[v]; 
-     for(int i=0;i<v;i++){
-         if(vis[i]==0){
-             dfs(i ,vis ,st ,adj);
-         }
-     }
-     int j=0;
-     
-     while(!st.isEmpty()){
-         ans[j++]=st.peek();
-         st.pop();
-     }
-     return ans;
-     
-    }
-    
-    public static  void dfs(int node ,int[] vis ,Stack<Integer> st ,ArrayList<ArrayList<Integer>> adj){
+        int[] indegree = new int[v];
         
-        vis[node]=1;
-        
-        for(int it:adj.get(node)){
-            if(vis[it]==0){
-              dfs(it ,vis ,st,adj); 
+        for(int i=0;i<v;i++){
+            for(int it:adj.get(i)){
+                
+                indegree[it]++;
             }
         }
-        st.push(node);
+        Queue<Integer> que = new LinkedList<>();
+        
+        for(int i=0;i<v;i++){
+            if(indegree[i]==0){
+                que.add(i);
+            }
+        }
+        int[] topo =new int[v];
+        int i=0;
+        
+        while(!que.isEmpty()){
+            int node  =que.peek();
+            que.remove();
+            topo[i++]=node;
+            
+            for(int it:adj.get(node)){
+                indegree[it]--;
+                if(indegree[it]==0){
+                    que.add(it);
+                }
+            }
+        }
+        return topo;
+        
     }
 }
