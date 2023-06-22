@@ -1,5 +1,5 @@
 class Solution {
-  // BFS
+  // BFS hai
   // public boolean isBipartite(int[][] graph)
   // {
   // int n = graph.length;
