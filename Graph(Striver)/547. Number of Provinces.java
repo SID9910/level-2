@@ -1,5 +1,5 @@
 class Solution {
-    //0 based indexing hai question
+    //0 based indexing hai question ye
     public int findCircleNum(int[][] isConnected) {
       ArrayList<ArrayList<Integer>> adjlis = new ArrayList<ArrayList<Integer>>();
         for(int i=0;i<isConnected.length;i++){
