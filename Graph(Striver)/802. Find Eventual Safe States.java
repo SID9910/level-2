@@ -1,5 +1,5 @@
 class Solution {
-    
+    //ye hai
     public List<Integer> eventualSafeNodes(int[][] graph) {
         int v=graph.length;
        int[] vis = new int[v];
