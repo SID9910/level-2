@@ -9,7 +9,7 @@
  * }
  */
 class Solution {
-    // kth from last same variety
+    // kth from last same variety hai
     //indexing 0 se nhi hai so dry run se pta chalega fast and slow ka motion
    public ListNode removeNthFromEnd(ListNode head, int n) {
         ListNode slow = head;
