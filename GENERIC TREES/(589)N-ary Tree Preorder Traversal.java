@@ -1,7 +1,6 @@
 
 class Solution {
-    
-//jhjh
+
     public List<Integer> preorder(Node root) {
     
             List<Integer> result = new ArrayList<>();
