@@ -1,4 +1,4 @@
-//really
+
 class Solution {
     public boolean canFinish(int v, int[][] prerequisites) {
      ArrayList<ArrayList<Integer>> adj = new ArrayList<>();
