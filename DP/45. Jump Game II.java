@@ -1,5 +1,5 @@
 class Solution {
-    //greedy hai
+    
      public int jump(int[] nums) {
        int curmax=0;
          int jumps=0;
