@@ -1,6 +1,6 @@
 class Solution {
-    //imp
-    //brute force 
+   
+  
     //tc=o(n3)
     //space-o(1)
     //tle
