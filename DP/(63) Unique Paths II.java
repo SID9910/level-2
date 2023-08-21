@@ -1,21 +1,21 @@
 class Solution {
     
-//     static int allpath(int i, int j, int[][] obstacleGrid){
-//     if (i == 0 && j == 0) {
+    static int allpath(int i, int j, int[][] obstacleGrid){
+    if (i == 0 && j == 0) {
         
-//         return 1;
-//     }
-//     if(i<0 || j<0 ||obstacleGrid[i][j]==1)return 0;
+        return 1;
+    }
+    if(i<0 || j<0 ||obstacleGrid[i][j]==1)return 0;
 
     
     
-//     int up =   allpath(i-1, j, obstacleGrid);
-//     int left =   allpath(i, j-1, obstacleGrid);
+    int up =   allpath(i-1, j, obstacleGrid);
+    int left =   allpath(i, j-1, obstacleGrid);
     
-//     int count = up + left;
+    int count = up + left;
     
-//     return count;
-// } 
+    return count;
+} 
     
     
 //     public int uniquePathsWithObstacles(int[][] obstacleGrid) {
