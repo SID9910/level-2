@@ -8,7 +8,7 @@
  *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
  * }
  */
-//jo
+
 class Solution {
     //merge sort approach 
  //      public ListNode mergeKLists(ListNode[] lists) {
