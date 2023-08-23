@@ -1,6 +1,6 @@
 class Solution {
     
-    //hashmao baad dubara karunga ye question
+    
     public int longestPalindrome(String s) {
         Map<Character,Integer> counts = new HashMap();
         //frequency daal do
