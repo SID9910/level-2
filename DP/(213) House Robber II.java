@@ -1,5 +1,5 @@
 class Solution {
-    //rober 2
+    //rober 2 hai
     public int rob(int[] nums) {
        ArrayList<Integer> list1 = new ArrayList<>();
         ArrayList<Integer> list2 = new ArrayList<>();
