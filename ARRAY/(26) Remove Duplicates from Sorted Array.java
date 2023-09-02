@@ -1,5 +1,5 @@
 public class Solution { 
-    //hai
+    //hai jacjsdbcjsbjs
     public int removeDuplicates(int[] nums) {
      if(nums.length==0){
          return 0;
