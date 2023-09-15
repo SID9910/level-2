@@ -11,6 +11,7 @@
  */
 public class Solution {
 
+//ye its done
     public ListNode detectCycle(ListNode head) {
       
          if(head==null || head.next==null){
