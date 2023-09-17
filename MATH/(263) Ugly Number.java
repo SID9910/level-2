@@ -1,5 +1,5 @@
 // class Solution {
-    //iuajnjwdnnjas fv
+
 //     public boolean isUgly(int n) {
 //         //khali 2,3,5 vale cases lenge //zero se niche ke nhi
 //         //aaagr number se chota hai to false 
