@@ -1,6 +1,6 @@
 class Solution {
     
-    //question aasan hai bss comparater main dikkkat aarahi hai
+  
     //min heap se kara hai
     //brute force 
     //optimised isse baad main karunga bucket sort se pehle isse 
