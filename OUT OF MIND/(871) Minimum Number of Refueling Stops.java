@@ -1,7 +1,6 @@
 class Solution {
     
-    //out of mind 
-    //dubara aaunga ispe o
+
     public int minRefuelStops(int target, int startFuel, int[][] stations) {
          PriorityQueue<Integer> pq = new PriorityQueue<>(Collections.reverseOrder());
         int i = 0, count = 0, far = startFuel;
