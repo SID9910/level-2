@@ -1,7 +1,7 @@
 
 class Solution {
 
-//yez ifr n nbjbubmn
+
     public List<Integer> preorder(Node root) {
     
             List<Integer> result = new ArrayList<>();
