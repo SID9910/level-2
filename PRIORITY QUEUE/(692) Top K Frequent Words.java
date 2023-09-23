@@ -1,8 +1,7 @@
 class Solution {
     
   
-    //min heap se kara hai
-    //brute force 
+   
     //optimised isse baad main karunga bucket sort se pehle isse 
     //comparater ko use karna aache se karlu
     public List<String> topKFrequent(String[] words, int k) {
